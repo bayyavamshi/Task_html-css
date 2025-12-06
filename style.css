@@ -379,3 +379,31 @@ body {
         height: 22px;
     }
 }
+/* ===== LAPTOP FIX (1024px – 1280px) ===== */
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    .section-two {
+        gap: 40px;
+        align-items: center;
+    }
+
+    /* Make content-box smaller ONLY */
+    .content-box {
+        width: 40%;          /* smaller width */
+        padding: 35px 40px;  /* reduced padding */
+    }
+
+    .content-box h1 {
+        font-size: 34px;     /* smaller heading */
+        line-height: 1.2;
+    }
+
+    .content-box .small-text {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .click-link {
+        font-size: 18px;
+    }
+}
