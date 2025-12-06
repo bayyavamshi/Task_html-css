@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar" id="nav1">
+        <ul class="nav-menu">
+        <li><a href="#nav1">Home</a></li>
+        <li><a href="#nav1">Order</a></li>
+        <li><a href="#nav1">Food</a></li>
+        <li><a href="#nav1">Restaurant</a></li>
+        <li><a href="#nav1">Testimonials</a></li>
+        <li><a href="#nav1">Contact Us</a></li>
+            <li class="menu-icon">
+                <img src="./menu-bar.png" alt="menu" height="40" width="40">
+            </li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero-text">
+            <h1>LOREM IPSUM</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vivamus id est vitae dolor rhoncus tristique. Maecenas metus
+                quam, rhoncus euismod lorem in, sollicitudin viverra eros.
+                Donec dictum luctus quam ut tristique. Curabitur nec faucibus 
+                purus. Quisque congue sem nec justo mollis, in tincidunt erat 
+                pretium. Sed pulvinar, massa ac porta viverra.
+            </p>
+
+            <button class="hero-btn">Click Me</button>
+    </div>
+    <div class="hero-img">
+            <img src="./pexels-robin-stickel-70497.jpg" alt="Food Image">
+        </div>
+    </div>
+    <div class="section-two">
+        <div class="image-grid">
+            <img src="./pexels-eva-bronzini-6141651.jpg" alt="">
+            <img src="./pexels-rachel-claire-6752433.jpg" alt="">
+            <img src="./pexels-mister-mister-3434523.jpg" alt="">
+        </div>
+        <div class="content-box">
+            <p class="small-text">Lorem Ipsum</p>
+            <h1>LOREM IPSUM<br>SET ADEMiR</h1>
+            <a href="#" class="click-link">Click <img src="./icons8-arrow-30.png" alt="" height="30" width="30"> </a>
+        </div>
+
+    </div>
+     <script>
+document.querySelector(".menu-icon").addEventListener("click", () => {
+    document.querySelector(".nav-menu").classList.toggle("show");
+});
+</script>
+
+</body>
+</html>
